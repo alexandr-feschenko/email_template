@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: none;
+            -webkit-text-resize: 100%;
+            text-resize: 100%;
+            border: none;
+        }
+
+        body {
+            background: #fff;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        table td {
+            border-collapse: collapse !important;
+        }
+
+        .amount{
+            width: 470px;
+        }
+
+        @media only screen and (max-width: 700px) {
+            table[class="wrapper"] {
+                min-width: 320px !important;
+            }
+
+            table[class="mobile"] {
+                width: 100% !important;
+                float: none !important;
+            }
+
+            td[class="header-row"] {
+                width: 100% !important;
+                text-align: center !important;
+            }
+
+            table[class="mobile-centr"] {
+                margin: 0 auto;
+            }
+
+            td[class="mobile-hide"] {
+                display: none !important;
+            }
+
+            td[class="mobile-hide"] {
+                display: none !important;
+            }
+
+            table[class="buttons-container"] {
+                text-align: right !important;
+                height: auto !important;
+                float: none !important;
+                width: 100%;
+            }
+
+            table[class="mobile-block"] {
+                width: 190px !important;
+            }
+
+            .amount{
+                width: 70px;
+            }
+
+        }
+    </style>
+</head>
+<body bgcolor="#ffffff" style="padding: 0; margin: 0; background: 0;">
+    <table class="wrapper" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+
+        <!-- HEADER-->
+
+        <tr>
+            <td style="font-size: 0; line-height: 0;" align="center">
+                <table class="mobile" bgcolor="#bf0000" width="700" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td width="24" style="font-size: 0; line-height: 0;"></td>
+                        <td class="mobile" width="652" style="font-size: 0; line-height: 0;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                <tr>
+                                    <td height="25" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 0; line-height: 0;">
+                                        <table cellspacing="0" cellpadding="0" border="0" align="center">
+                                            <tr>
+                                                <td style="font-size: 32px; line-height: 1; color: #eabfbc;" align="center">
+                                                    Reserve<span style="color: #9c746d">In</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="24" style="font-size: 0; line-height: 0;"></td>
+                    </tr>
+                    <tr>
+                        <td height="10" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--******** GREETING ********-->
+
+        <tr>
+            <td style="font-size: 0; line-height: 0;" align="center">
+                <table class="mobile" width="700" cellpadding="0" cellspacing="0" border="0" align="center">
+                    <tr>
+                        <td height="15" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td width="100%" bgcolor="#ffffff" style="font-size: 0; line-height: 0;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0"">
+                    <tr>
+                        <td width="10" style="font-size: 0; line-height: 0;"></td>
+                        <td style="width: 400px; font-size: 28px; line-height: 1; color: #919191; font-weight: 400;" align="left">
+                            Hi "Guest Name"
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--******** TITLE ********-->
+
+        <tr>
+            <td style="font-size: 0; line-height: 0;" align="center">
+                <table class="mobile" width="700" cellpadding="0" cellspacing="0" border="1" align="center">
+                    <tr>
+                        <td width="100%" bgcolor="#ffffff" style="font-size: 0; line-height: 0;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td height="25" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="font-size: 28px; line-height: 1; font-weight: 400; color: #919191; text-decoration: underline;" align="center">
+                                        Your Order Summary from "venue Name"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--******** INFO ********-->
+
+        <tr>
+            <td style="font-size: 0; line-height: 0;" align="center">
+                <table class="mobile" width="700" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td class="mobile" width="652" style="font-size: 0; line-height: 0;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td height="15" style="font-size: 0; line-height: 0;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 0; line-height: 0;">
+                                        <table class="mobile" width="336" cellpadding="0" cellspacing="0" border="0" align="left">
+                                            <tr>
+                                                <td style="font-size: 0; line-height: 0;">
+                                                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td style="font-size: 0; line-height: 0;">
+                                                                <table class="mobile" width="316" bgcolor="#f2f2f2" cellspacing="0" cellpadding="0" border="0">
+                                                                    <tr>
+                                                                        <td width="24" style="font-size: 0; line-height: 0;"></td>
+                                                                        <td class="mobile" width="268" style="font-size: 0; line-height: 0;">
+                                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tr>
+                                                                                    <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-size: 16px; line-height: 1; text-decoration: underline">Delivery Address</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td valign="top" style="font-size: 12px; line-height: 1.3;" align="left">
+                                                                                        Will display Full Delivery Address added by guest while ordering
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15" style="font-size: 0; line-height: 0;"></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td width="24" style="font-size: 0; line-height: 0;"></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td class="mobile-hide" width="20" style="font-size: 0; line-height: 0;"></td>
+                                            </tr>
+                                        </table>
+                                        <table class="mobile" width="316" cellpadding="0" cellspacing="0" border="0" align="right">
+                                            <tr>
+                                                <td style="font-size: 0; line-height: 0;">
+                                                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td style="font-size: 0; line-height: 0;">
+                                                                <table class="mobile" width="316" bgcolor="#f2f2f2" cellspacing="0" cellpadding="0" border="0">
+                                                                    <tr>
+                                                                        <td width="24" style="font-size: 0; line-height: 0;"></td>
+                                                                        <td class="mobile" width="268" style="font-size: 0; line-height: 0;">
+                                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tr>
+                                                                                    <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-size: 16px; line-height: 1; text-decoration: underline">Payment Method</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-size: 12px; line-height: 1.3;" align="left">
+                                                                                        Will display Payment method selected by guest while adding the order
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="15" style="font-size: 0; line-height: 0;"></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td width="10" style="font-size: 0; line-height: 0;"></td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" style="font-size: 0; line-height: 0;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- ESTIMATE-->
+
+        <tr>
+            <td style="font-size: 0; line-height: 0;" align="center">
+                <table class="mobile" width="700" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td class="mobile" width="652" style="font-size: 0; line-height: 0;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="font-size: 0; line-height: 0;">
+                                        <table class="mobile" width="316" cellpadding="0" cellspacing="0" border="0" align="left">
+                                            <tr>
+                                                <td style="font-size: 0; line-height: 0;">
+                                                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                        <tr>
+                                                            <td style="font-size: 0; line-height: 0;">
+                                                                <table class="mobile" width="316" bgcolor="#f2f2f2" cellspacing="0" cellpadding="0" border="0">
+                                                                    <tr>
+                                                                        <td width="24" style="font-size: 0; line-height: 0;"></td>
+                                                                        <td class="mobile" width="268" style="font-size: 0; line-height: 0;">
+                                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tr>
+                                                                                    <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-size: 16px; line-height: 1; text-decoration: underline">Delivery Estimate</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td width="10" style="font-size: 0; line-height: 0;"></td>
+                                                                    </tr>
+
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="5" style="font-size: 0; line-height: 0;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--ITEMS-->
+
+        <tr>
+            <td style="font-size: 0; line-height: 0;" align="center">
+                <table class="mobile" bgcolor="#f2f2f2" width="700" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td width="24" style="font-size: 0; line-height: 0;"></td>
+                        <td class="mobile" width="652" style="font-size: 0; line-height: 0;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                <tr>
+                                    <td height="25" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 0; line-height: 0">
+                                        <table cellspacing="0" cellpadding="0" border="0" align="left">
+                                            <tr>
+                                                <td style="font-size: 0; line-height: 0">
+                                                    <table class="mobile" width="130" cellspacing="0" cellpadding="0" bolrder="0" align="left" >
+                                                        <tr>
+                                                            <td class="mobile-hide" width="30" style="font-size: 0; line-height: 0;"></td>
+                                                            <td style="font-size: 12px; line-height: 0; text-align: center" width="80" height="50" bgcolor="grey">
+                                                                image item
+                                                            </td>
+                                                            <td width="20" style="font-size: 0; line-height: 0;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="font-size: 0; line-height: 0">
+                                                    <table class="mobile" width="150" cellspacing="0" cellpadding="0" bolrder="0" >
+                                                        <tr>
+                                                            <td classstyle="font-size: 12px; line-height: 0;" width="210" height="50">
+
+                                                                <table class="mobile" width="100%" cellspacing="0" cellpadding="0" bolrder="0" >
+                                                                    <tr>
+                                                                        <td style="font-size: 12px; line-height: 1.5;">
+                                                                            Item Title
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="5" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="font-size: 12px; line-height: 1.5;">
+                                                                            Item Special request if any
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td class="mobile-hide" width="160" style="font-size: 0; line-height: 0;"></td>
+                                                <td style="font-size: 12px; line-height: 0; text-align: right" width="60" height="50">
+                                                    QTY
+                                                </td>
+                                                <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="50">
+                                                    Price
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="24" style="font-size: 0; line-height: 0;"></td>
+                    </tr>
+                    <tr>
+                        <td height="10" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--FULL PRICE-->
+
+        <tr>
+            <td style="font-size: 0; line-height: 0;" align="center">
+                <table class="mobile" width="100%" cellpadding="0" cellspacing="0" border="1">
+                    <tr>
+                        <td style="font-size: 0; line-height: 0;"></td>
+                            <table class="mobile" width="700" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#f2f2f2">
+
+                                <tr>
+                                    <td height="10" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td class="amount" style="font-size: 0; line-height: 0;"></td>
+                                    <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
+                                        Total
+                                    </td>
+
+                                    <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
+                                        AMOUNT(CURRENCY)
+                                    </td>
+                                    <td class="mobile-hide" width="30" style="font-size: 0; line-height: 0;"></td>
+                                </tr>
+                                <tr>
+                                    <td class="amount" style="font-size: 0; line-height: 0;"></td>
+                                    <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
+                                        Taxes(%)
+                                    </td>
+                                    <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
+                                        AMOUNT(CURRENCY)
+                                    </td>
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <td class="amount" style="font-size: 0; line-height: 0;"></td>
+                                    <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
+                                        Delivery fees
+                                    </td>
+                                    <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
+                                        AMOUNT(CURRENCY)
+                                    </td>
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <td class="amount" style="font-size: 0; line-height: 0;"></td>
+                                    <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
+                                        Grand Total
+                                    </td>
+                                    <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
+                                        AMOUNT(CURRENCY)
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--******** FOOTER ********-->
+
+        <tr>
+            <td style="font-size: 0; line-height: 0;" align="center">
+                <table class="mobile" width="700" cellpadding="0" cellspacing="0" border="1" align="center">
+                    <tr>
+                        <td width="100%" bgcolor="#ffffff" style="font-size: 0; line-height: 0;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td height="25" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="font-size: 16px; line-height: 1; font-weight: 400; color: #bf0000; text-decoration: underline;" align="center">
+                                        Thanks for using Reserve<span style="color: #9c746d">In</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25" style="font-size: 0; line-height: 0;" colspan="3"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--******** END FOOTER ********-->
+
+    </table>
+</body>
+</html>
+
+
+
