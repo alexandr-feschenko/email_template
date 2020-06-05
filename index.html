@@ -30,9 +30,6 @@
             border-collapse: collapse !important;
         }
 
-        .amount{
-            width: 470px;
-        }
 
         @media only screen and (max-width: 700px) {
             table[class="wrapper"] {
@@ -70,10 +67,6 @@
 
             table[class="mobile-block"] {
                 width: 190px !important;
-            }
-
-            .amount{
-                width: 70px;
             }
 
         }
@@ -406,50 +399,65 @@
                 <table class="mobile" width="100%" cellpadding="0" cellspacing="0" border="1">
                     <tr>
                         <td style="font-size: 0; line-height: 0;"></td>
-                            <table class="mobile" width="700" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#f2f2f2">
-
+                            <table class="mobile" width="700" cellspacing="0" cellpadding="0" border="0" align="right" bgcolor="#f2f2f2">
                                 <tr>
                                     <td height="10" style="font-size: 0; line-height: 0;" colspan="3"></td>
                                 </tr>
                                 <tr>
-                                    <td class="amount" style="font-size: 0; line-height: 0;"></td>
-                                    <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
-                                        Total
+                                    <td style="font-size: 0; line-height: 0;" align="right">
+                                        <table class="mobile" width="300" cellspacing="0" cellpadding="0" border="0" bgcolor="#f2f2f2">
+                                            <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
+                                                Total
+                                            </td>
+
+                                            <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
+                                                AMOUNT(CURRENCY)
+                                            </td>
+                                        </table>
                                     </td>
 
-                                    <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
-                                        AMOUNT(CURRENCY)
-                                    </td>
-                                    <td class="mobile-hide" width="30" style="font-size: 0; line-height: 0;"></td>
                                 </tr>
                                 <tr>
-                                    <td class="amount" style="font-size: 0; line-height: 0;"></td>
-                                    <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
-                                        Taxes(%)
-                                    </td>
-                                    <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
-                                        AMOUNT(CURRENCY)
-                                    </td>
-                                </tr>
-                                </tr>
-                                <tr>
-                                    <td class="amount" style="font-size: 0; line-height: 0;"></td>
-                                    <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
-                                        Delivery fees
-                                    </td>
-                                    <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
-                                        AMOUNT(CURRENCY)
+                                    <td style="font-size: 0; line-height: 0;" align="right">
+                                        <table class="mobile" width="300" cellspacing="0" cellpadding="0" border="0" bgcolor="#f2f2f2">
+                                            <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
+                                                Taxes(%)
+                                            </td>
+
+                                            <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
+                                                AMOUNT(CURRENCY)
+                                            </td>
+                                        </table>
                                     </td>
                                 </tr>
                                 </tr>
                                 <tr>
-                                    <td class="amount" style="font-size: 0; line-height: 0;"></td>
-                                    <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
-                                        Grand Total
+                                    <td style="font-size: 0; line-height: 0;" align="right">
+                                        <table class="mobile" width="300" cellspacing="0" cellpadding="0" border="0" bgcolor="#f2f2f2">
+                                            <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
+                                                Delivery fees
+                                            </td>
+
+                                            <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
+                                                AMOUNT(CURRENCY)
+                                            </td>
+                                        </table>
                                     </td>
-                                    <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
-                                        AMOUNT(CURRENCY)
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 0; line-height: 0;" align="right">
+                                        <table class="mobile" width="300" cellspacing="0" cellpadding="0" border="0" bgcolor="#f2f2f2">
+                                            <td style="font-size: 12px; line-height: 0; text-align: right" width="150" height="20">
+                                                Grand Total
+                                            </td>
+
+                                            <td style="font-size: 12px; line-height: 0; text-align: center" width="150" height="20">
+                                                AMOUNT(CURRENCY)
+                                            </td>
+                                        </table>
                                     </td>
+                                    <td width="24" style="font-size: 0; line-height: 0;"></td>
                                 </tr>
                             </table>
                         </td>
